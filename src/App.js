@@ -31,7 +31,7 @@ function App() {
           element: <Blog></Blog>
         },
         {
-          path: '/quizDetails',
+          path: "/quizDetails/:topicId" ,
           element:<QuizDetaills></QuizDetaills>
         },
         {
